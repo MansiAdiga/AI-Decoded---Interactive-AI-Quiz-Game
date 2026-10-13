@@ -1,0 +1,798 @@
+
+[
+  {
+    "id": 1,
+    "unit": "Unit I",
+    "topic": "Foundations of AI",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "Which statement best describes Artificial Intelligence?",
+    "options": [
+      "A technique used only to store large amounts of data",
+      "The study of building systems that perform tasks requiring intelligence",
+      "A method of increasing internet bandwidth",
+      "A programming language used exclusively for robotics"
+    ],
+    "answer": "The study of building systems that perform tasks requiring intelligence",
+    "explanation": "AI focuses on developing systems capable of tasks such as reasoning, learning, perception, and problem-solving."
+  },
+  {
+    "id": 2,
+    "unit": "Unit I",
+    "topic": "Applications of AI",
+    "type": "Scenario",
+    "difficulty": "Easy",
+    "question": "A shopping website recommends products based on a customer's previous purchases. Which AI application is being used?",
+    "options": [
+      "Operating system scheduling",
+      "Data encryption",
+      "Recommendation system",
+      "File compression"
+    ],
+    "answer": "Recommendation system",
+    "explanation": "Recommendation systems use user preferences and behavioural data to suggest relevant products."
+  },
+  {
+    "id": 3,
+    "unit": "Unit I",
+    "topic": "Turing Test",
+    "type": "True/False",
+    "difficulty": "Easy",
+    "question": "The Turing Test evaluates whether a machine's conversational responses can be distinguished from a human's.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True",
+    "explanation": "Alan Turing proposed an imitation-game approach to assessing machine intelligence through responses in conversation."
+  },
+  {
+    "id": 4,
+    "unit": "Unit I",
+    "topic": "Rational Agents",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What should a rational agent aim to maximise?",
+    "options": [
+      "The number of actions it performs",
+      "The amount of information it ignores",
+      "The complexity of its program",
+      "The expected value of its performance measure"
+    ],
+    "answer": "The expected value of its performance measure",
+    "explanation": "A rational agent chooses actions expected to produce the best performance given its percepts, knowledge, and available actions."
+  },
+  {
+    "id": 5,
+    "unit": "Unit I",
+    "topic": "Intelligent Agents",
+    "type": "Fill in the Blanks",
+    "difficulty": "Easy",
+    "question": "An intelligent agent receives information through ______ and acts through actuators.",
+    "options": [
+      "Sensors",
+      "Queues",
+      "Production rules",
+      "Heuristic functions"
+    ],
+    "answer": "Sensors",
+    "explanation": "Sensors obtain percepts from the environment; actuators carry out actions."
+  },
+  {
+    "id": 6,
+    "unit": "Unit I",
+    "topic": "Agents and Environments",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A robotic vacuum detects dirt using sensors and moves its brushes to clean it. In this example, what are the brushes?",
+    "options": [
+      "Percepts",
+      "Actuators",
+      "Performance measures",
+      "Environment states"
+    ],
+    "answer": "Actuators",
+    "explanation": "Actuators enable an agent to perform actions on its environment. The brushes physically carry out the cleaning action."
+  },
+  {
+    "id": 7,
+    "unit": "Unit I",
+    "topic": "Good Behaviour",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which factor is most important when evaluating an agent's behaviour?",
+    "options": [
+      "Whether its program contains the most lines of code",
+      "Whether it always selects the same action",
+      "How well its actions achieve the specified performance measure",
+      "Whether it imitates every human decision"
+    ],
+    "answer": "How well its actions achieve the specified performance measure",
+    "explanation": "Good agent behaviour is assessed using a performance measure that describes the desired outcomes."
+  },
+  {
+    "id": 8,
+    "unit": "Unit I",
+    "topic": "Nature of Environments",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "A chess-playing agent can observe the complete board, including every piece. Which property describes the environment?",
+    "options": [
+      "Partially observable",
+      "Fully observable",
+      "Unknown by definition",
+      "Continuous only"
+    ],
+    "answer": "Fully observable",
+    "explanation": "In chess, the complete board state is visible to both players, so the environment is fully observable."
+  },
+  {
+    "id": 9,
+    "unit": "Unit I",
+    "topic": "Real-World AI Applications",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A hospital AI system analyses medical images to highlight suspicious regions for a radiologist. Which capability is most directly involved?",
+    "options": [
+      "Image recognition and pattern analysis",
+      "Sorting files alphabetically",
+      "Increasing monitor brightness",
+      "Network address assignment"
+    ],
+    "answer": "Image recognition and pattern analysis",
+    "explanation": "Computer vision models identify visual patterns in medical images. Their outputs can support, but should not automatically replace, clinical judgement."
+  },
+  {
+    "id": 10,
+    "unit": "Unit I",
+    "topic": "Nature of Environments",
+    "type": "True/False",
+    "difficulty": "Medium",
+    "question": "In a deterministic environment, the current state and chosen action determine the next state.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A deterministic transition has a uniquely determined outcome for a given state and action."
+  },
+  {
+    "id": 11,
+    "unit": "Unit I",
+    "topic": "Problem Formulation",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "Which of the following is a fundamental component of a well-defined AI search problem?",
+    "options": [
+      "A programming language",
+      "A graphical user interface",
+      "An initial state",
+      "A database password"
+    ],
+    "answer": "An initial state",
+    "explanation": "A search problem commonly specifies an initial state, actions or successor function, goal test, and path-cost function."
+  },
+  {
+    "id": 12,
+    "unit": "Unit I",
+    "topic": "Problem Spaces",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What does the state space of a search problem represent?",
+    "options": [
+      "All possible states reachable or considered under the problem formulation",
+      "Only the final goal state",
+      "Only the initial state",
+      "The source code of the search algorithm"
+    ],
+    "answer": "All possible states reachable or considered under the problem formulation",
+    "explanation": "A state space represents the possible configurations relevant to solving the problem."
+  },
+  {
+    "id": 13,
+    "unit": "Unit I",
+    "topic": "State Space Search",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A delivery robot must travel from a warehouse to a customer's home. What represents a state in this search problem?",
+    "options": [
+      "The colour of the robot's interface",
+      "A possible location or configuration of the robot",
+      "The name of the programmer",
+      "The size of the source-code file"
+    ],
+    "answer": "A possible location or configuration of the robot",
+    "explanation": "States represent configurations of the problem, such as the robot's current location. Actions move it between states."
+  },
+  {
+    "id": 14,
+    "unit": "Unit I",
+    "topic": "Production Systems",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the typical structure of a production rule?",
+    "options": [
+      "Input file followed by output file",
+      "Variable followed by a domain only",
+      "Stack followed by a queue",
+      "IF condition THEN action"
+    ],
+    "answer": "IF condition THEN action",
+    "explanation": "Production systems use condition–action rules to determine which actions can be applied to the current state."
+  },
+  {
+    "id": 15,
+    "unit": "Unit I",
+    "topic": "Production Systems",
+    "type": "True/False",
+    "difficulty": "Easy",
+    "question": "A production system can use a set of rules and a control strategy to modify the current problem state.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "True",
+    "explanation": "Rules describe applicable actions, while the control strategy determines which rule to apply when multiple rules are available."
+  },
+  {
+    "id": 16,
+    "unit": "Unit I",
+    "topic": "Problem Characteristics",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Which problem characteristic is especially important when deciding whether an algorithm must account for changing conditions during execution?",
+    "options": [
+      "The font used in the interface",
+      "The file extension of the program",
+      "Whether the environment is static or dynamic",
+      "The number of comments in the code"
+    ],
+    "answer": "Whether the environment is static or dynamic",
+    "explanation": "A static environment does not change while the agent is deliberating, whereas a dynamic environment may change during that time."
+  },
+  {
+    "id": 17,
+    "unit": "Unit I",
+    "topic": "Problem Characteristics",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "A problem is decomposable when:",
+    "options": [
+      "It can be divided into smaller subproblems that can be solved separately or combined",
+      "It has no goal state",
+      "It cannot be represented using states",
+      "Every action has an unpredictable outcome"
+    ],
+    "answer": "It can be divided into smaller subproblems that can be solved separately or combined",
+    "explanation": "Decomposable problems can be broken into subproblems, potentially simplifying the overall solution."
+  },
+  {
+    "id": 18,
+    "unit": "Unit I",
+    "topic": "Issues in Search Program Design",
+    "type": "Scenario",
+    "difficulty": "Hard",
+    "question": "A search algorithm repeatedly visits the same states and runs indefinitely. Which design feature can help prevent this?",
+    "options": [
+      "Removing the goal test",
+      "Increasing the number of duplicate states",
+      "Ignoring the successor function",
+      "Maintaining a visited-state set or suitable repeated-state check"
+    ],
+    "answer": "Maintaining a visited-state set or suitable repeated-state check",
+    "explanation": "Repeated-state detection can prevent unnecessary revisits and help avoid infinite loops in cyclic state spaces."
+  },
+  {
+    "id": 19,
+    "unit": "Unit I",
+    "topic": "Search Program Design",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "Why should a search algorithm distinguish between a state and a search node?",
+    "options": [
+      "A state always contains the entire program",
+      "A search node can store information such as its parent, action, depth, and path cost in addition to the state",
+      "A search node cannot refer to a state",
+      "States are used only in machine learning"
+    ],
+    "answer": "A search node can store information such as its parent, action, depth, and path cost in addition to the state",
+    "explanation": "The state describes a problem configuration; a search node also records information needed to reconstruct or evaluate a search path."
+  },
+  {
+    "id": 20,
+    "unit": "Unit I",
+    "topic": "Search Program Design",
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "question": "Which set of criteria is most useful when comparing search algorithms?",
+    "options": [
+      "Colour, font, and window size",
+      "Number of variable names and comments",
+      "Completeness, optimality, time complexity, and space complexity",
+      "File size alone"
+    ],
+    "answer": "Completeness, optimality, time complexity, and space complexity",
+    "explanation": "These criteria describe whether a solution is found, whether it is optimal, and the computational resources required."
+  },
+  {
+    "id": 21,
+    "unit": "Unit II",
+    "topic": "Breadth-First Search",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "Which data structure is typically used by Breadth-First Search?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Priority queue in every implementation",
+      "Hash table only"
+    ],
+    "answer": "Queue",
+    "explanation": "BFS uses a FIFO queue to explore nodes level by level."
+  },
+  {
+    "id": 22,
+    "unit": "Unit II",
+    "topic": "BFS State Space Problem",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "In a graph, S has children A and B. A has children C and D, while B has children E and F. If BFS starts at S and explores children from left to right, what is the traversal order?",
+    "options": [
+      "S, A, C, D, B, E, F",
+      "S, B, F, E, A, D, C",
+      "S, A, B, C, D, E, F",
+      "S, C, D, A, F, E, B"
+    ],
+    "answer": "S, A, B, C, D, E, F",
+    "explanation": "BFS visits all nodes at one depth before moving to the next: first S, then A and B, then C, D, E, and F."
+  },
+  {
+    "id": 23,
+    "unit": "Unit II",
+    "topic": "Depth-First Search",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "Which data structure is commonly used to implement Depth-First Search?",
+    "options": [
+      "FIFO queue",
+      "Circular buffer only",
+      "Stack",
+      "Priority queue only"
+    ],
+    "answer": "Stack",
+    "explanation": "DFS explores a branch deeply before backtracking. It can be implemented using an explicit stack or recursion."
+  },
+  {
+    "id": 24,
+    "unit": "Unit II",
+    "topic": "DFS State Space Problem",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "Using the graph S → A, B; A → C, D; B → E, F, perform DFS from S, exploring children from left to right and fully exploring each child before backtracking. What is the traversal order?",
+    "options": [
+      "S, A, B, C, D, E, F",
+      "S, A, C, D, B, E, F",
+      "S, B, E, F, A, C, D",
+      "S, C, A, D, B, F, E"
+    ],
+    "answer": "S, A, C, D, B, E, F",
+    "explanation": "DFS visits A and its descendants before returning to S to explore B and its descendants."
+  },
+  {
+    "id": 25,
+    "unit": "Unit II",
+    "topic": "BFS vs DFS",
+    "type": "True/False",
+    "difficulty": "Medium",
+    "question": "BFS is complete on a finite branching search tree, and it finds a shallowest-depth solution when all actions have equal cost.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "BFS explores nodes in increasing depth order. With finite branching, it finds a solution at the shallowest depth if one exists."
+  },
+  {
+    "id": 26,
+    "unit": "Unit II",
+    "topic": "Iterative Deepening Search",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "How does Iterative Deepening Depth-First Search operate?",
+    "options": [
+      "It explores only the deepest level once",
+      "It uses a heuristic to select the lowest estimated-cost node",
+      "It repeatedly performs depth-limited DFS with increasing depth limits",
+      "It permanently removes all nodes at depth zero"
+    ],
+    "answer": "It repeatedly performs depth-limited DFS with increasing depth limits",
+    "explanation": "Iterative deepening runs depth-limited DFS with limits 0, 1, 2, and so on until a solution is found."
+  },
+  {
+    "id": 27,
+    "unit": "Unit II",
+    "topic": "Iterative Deepening Search",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "A goal node is at depth 3. Iterative Deepening starts with a depth limit of 0 and increases the limit by 1 after each unsuccessful iteration. At which limit will it first be able to find the goal?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "The goal is not within the search boundary until the depth limit reaches 3."
+  },
+  {
+    "id": 28,
+    "unit": "Unit II",
+    "topic": "Hill Climbing",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "A hill-climbing algorithm selects the next state by:",
+    "options": [
+      "Moving to a neighbouring state that improves the evaluation",
+      "Always selecting the oldest state in a queue",
+      "Randomly choosing any state without evaluating it",
+      "Exploring every possible path before moving"
+    ],
+    "answer": "Moving to a neighbouring state that improves the evaluation",
+    "explanation": "Hill climbing uses a local evaluation function to move toward a better neighbouring state."
+  },
+  {
+    "id": 29,
+    "unit": "Unit II",
+    "topic": "Hill Climbing Limitations",
+    "type": "Scenario",
+    "difficulty": "Hard",
+    "question": "A hill-climbing algorithm stops because none of its immediate neighbours has a better evaluation, but a much better solution exists elsewhere. What is a likely cause?",
+    "options": [
+      "The algorithm has necessarily found the global optimum",
+      "The problem contains no states",
+      "The algorithm is trapped at a local optimum or plateau",
+      "BFS is using a stack"
+    ],
+    "answer": "The algorithm is trapped at a local optimum or plateau",
+    "explanation": "Basic hill climbing can stop at a local optimum or plateau without reaching the global optimum."
+  },
+  {
+    "id": 30,
+    "unit": "Unit II",
+    "topic": "Hill Climbing Variations",
+    "type": "MCQ",
+    "difficulty": "Hard",
+    "question": "Which hill-climbing variation allows the algorithm to make occasional non-improving or downhill moves to help escape local optima?",
+    "options": [
+      "Breadth-First Search",
+      "Stochastic hill climbing only when it selects the best neighbour",
+      "Depth-Limited Search",
+      "Simulated annealing"
+    ],
+    "answer": "Simulated annealing",
+    "explanation": "Simulated annealing can accept worse moves with a probability that generally decreases as the temperature parameter is reduced."
+  },
+  {
+    "id": 31,
+    "unit": "Unit II",
+    "topic": "Heuristic Search",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "What is a heuristic function used for in AI search?",
+    "options": [
+      "To estimate how close a state is to a goal or how promising it is",
+      "To store every possible program output",
+      "To guarantee that every search finds an optimal solution",
+      "To replace the goal test in every algorithm"
+    ],
+    "answer": "To estimate how close a state is to a goal or how promising it is",
+    "explanation": "A heuristic provides an estimate that guides search toward promising states. It does not automatically guarantee optimality."
+  },
+  {
+    "id": 32,
+    "unit": "Unit II",
+    "topic": "Best-First Search",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "In Greedy Best-First Search, which value is commonly used to choose the next node for expansion?",
+    "options": [
+      "The node's depth alone",
+      "The number of characters in the node name",
+      "The heuristic estimate h(n)",
+      "The accumulated path cost g(n) alone"
+    ],
+    "answer": "The heuristic estimate h(n)",
+    "explanation": "Greedy Best-First Search prioritises the node estimated to be closest to the goal according to h(n)."
+  },
+  {
+    "id": 33,
+    "unit": "Unit II",
+    "topic": "Heuristic Search",
+    "type": "True/False",
+    "difficulty": "Medium",
+    "question": "An admissible heuristic never overestimates the actual minimum cost from a state to a goal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Admissibility means h(n) is no greater than the true minimum remaining cost h*(n)."
+  },
+  {
+    "id": 34,
+    "unit": "Unit II",
+    "topic": "Best-First Search Problem",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "Greedy Best-First Search is at node S. Its frontier contains A with h(A) = 6, B with h(B) = 2, and C with h(C) = 4. Which node is selected next?",
+    "options": [
+      "A",
+      "C",
+      "S",
+      "B"
+    ],
+    "answer": "B",
+    "explanation": "Greedy Best-First Search selects the frontier node with the smallest heuristic estimate. Here, h(B) = 2."
+  },
+  {
+    "id": 35,
+    "unit": "Unit II",
+    "topic": "Real-World Heuristic Search",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A navigation system uses straight-line distance to the destination as a heuristic while searching for a driving route. What is the main purpose of this heuristic?",
+    "options": [
+      "To calculate the exact traffic conditions on every road",
+      "To estimate remaining distance and guide the search",
+      "To guarantee that the first route found is the fastest",
+      "To remove all intersections from the road network"
+    ],
+    "answer": "To estimate remaining distance and guide the search",
+    "explanation": "Straight-line distance is a lower-bound estimate of road distance under ordinary road-network assumptions. It can guide search but does not account for all traffic or travel-time effects."
+  },
+  {
+    "id": 36,
+    "unit": "Unit II",
+    "topic": "Constraint Satisfaction Problems",
+    "type": "MCQ",
+    "difficulty": "Easy",
+    "question": "Which three components define a standard Constraint Satisfaction Problem?",
+    "options": [
+      "Sensors, actuators, and percepts",
+      "Initial state, stack, and queue",
+      "Variables, domains, and constraints",
+      "Training data, labels, and epochs"
+    ],
+    "answer": "Variables, domains, and constraints",
+    "explanation": "A CSP defines the variables to assign, the values allowed for each variable, and the constraints that assignments must satisfy."
+  },
+  {
+    "id": 37,
+    "unit": "Unit II",
+    "topic": "CSP Applications",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A university schedules examinations so that students do not have two exams at the same time. In a CSP formulation, what do the variables most naturally represent?",
+    "options": [
+      "Individual examinations whose time slots must be assigned",
+      "Only the university's buildings",
+      "The colours of the exam papers",
+      "The number of lines in the scheduling program"
+    ],
+    "answer": "Individual examinations whose time slots must be assigned",
+    "explanation": "Each exam can be a variable, its domain can contain available time slots, and constraints prevent conflicting exams from being scheduled together."
+  },
+  {
+    "id": 38,
+    "unit": "Unit II",
+    "topic": "CSP Constraints",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "Two adjacent regions, A and B, must have different colours. If A is red and B's domain is {red, blue, green}, which values remain valid for B?",
+    "options": [
+      "{red}",
+      "{red, blue, green}",
+      "{blue, green}",
+      "The empty set"
+    ],
+    "answer": "{blue, green}",
+    "explanation": "The constraint requires A and B to have different colours. Since A is red, red must be removed from B's domain."
+  },
+  {
+    "id": 39,
+    "unit": "Unit II",
+    "topic": "Means-End Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "question": "What is the central idea behind Means–End Analysis?",
+    "options": [
+      "Explore states without considering the goal",
+      "Identify differences between the current state and the goal, then choose actions to reduce them",
+      "Always expand the deepest node first",
+      "Select actions without considering their effects"
+    ],
+    "answer": "Identify differences between the current state and the goal, then choose actions to reduce them",
+    "explanation": "Means–End Analysis compares the current state with the goal and selects operators intended to reduce the differences."
+  },
+  {
+    "id": 40,
+    "unit": "Unit II",
+    "topic": "Means-End Analysis",
+    "type": "Scenario",
+    "difficulty": "Hard",
+    "question": "A robot must move a box onto a high shelf, but it cannot reach the shelf directly. It first moves a step stool into position and then climbs onto it. Which AI problem-solving idea does this illustrate?",
+    "options": [
+      "Blindly expanding every state in breadth-first order",
+      "Ignoring preconditions of actions",
+      "Means–End Analysis using an intermediate subgoal",
+      "Random selection without evaluating the goal"
+    ],
+    "answer": "Means–End Analysis using an intermediate subgoal",
+    "explanation": "The robot identifies the difference between its current capabilities and the goal, then creates an intermediate subgoal—positioning the stool—to make the final action possible."
+  },
+  {
+    "id": 41,
+    "unit": "Unit I",
+    "topic": "Real-World AI Applications",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "An email service identifies suspicious messages and places them in a spam folder. Which AI task is most directly involved?",
+    "options": [
+      "Unsupervised file compression",
+      "Classification",
+      "Path reconstruction",
+      "Constraint propagation"
+    ],
+    "answer": "Classification",
+    "explanation": "A spam filter classifies messages into categories such as spam and legitimate email using features learned from data."
+  },
+  {
+    "id": 42,
+    "unit": "Unit I",
+    "topic": "Real-World AI Applications",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A self-driving car detects pedestrians, predicts their movements, and adjusts its speed. Which combination best describes the AI capabilities involved?",
+    "options": [
+      "Only text formatting",
+      "Only database indexing",
+      "Perception, prediction, and decision-making",
+      "Only static file storage"
+    ],
+    "answer": "Perception, prediction, and decision-making",
+    "explanation": "Autonomous driving systems interpret sensor data, estimate how road users may move, and choose actions to navigate safely."
+  },
+  {
+    "id": 43,
+    "unit": "Unit I",
+    "topic": "Rational Agents in Applications",
+    "type": "Scenario",
+    "difficulty": "Hard",
+    "question": "An intelligent thermostat observes room temperature and adjusts heating to maintain a target temperature while reducing energy use. Which statement best describes its behaviour as an agent?",
+    "options": [
+      "It only stores temperature readings and never acts",
+      "It must select the same action regardless of temperature",
+      "It is rational only if it uses a neural network",
+      "It uses percepts to choose actions that support its performance objectives"
+    ],
+    "answer": "It uses percepts to choose actions that support its performance objectives",
+    "explanation": "A rational thermostat selects actions based on available information and objectives such as comfort and energy efficiency. Rationality does not require a particular model architecture."
+  },
+  {
+    "id": 44,
+    "unit": "Unit II",
+    "topic": "State Space Search",
+    "type": "Problem-solving",
+    "difficulty": "Hard",
+    "question": "A search problem has the transitions S → A, B; A → C; B → D; C → G; D → G. If BFS explores children from left to right and stops when G is first reached, which path does it find?",
+    "options": [
+      "S → B → D → G",
+      "S → A → C → G",
+      "S → A → B → G",
+      "S → C → D → G"
+    ],
+    "answer": "S → A → C → G",
+    "explanation": "BFS explores nodes level by level. With left-to-right ordering, it discovers the path through A and C before the path through B and D at the same goal depth."
+  },
+  {
+    "id": 45,
+    "unit": "Unit II",
+    "topic": "Search Cost",
+    "type": "Problem-solving",
+    "difficulty": "Medium",
+    "question": "A path contains three actions with costs 2, 5, and 3. What is the total path cost?",
+    "options": [
+      "8",
+      "10",
+      "15",
+      "6"
+    ],
+    "answer": "10",
+    "explanation": "The total path cost is the sum of the action costs: 2 + 5 + 3 = 10."
+  },
+  {
+    "id": 46,
+    "unit": "Unit II",
+    "topic": "Heuristic Search",
+    "type": "Assertion-Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): Greedy Best-First Search always finds the least-cost solution. Reason (R): Greedy Best-First Search selects the frontier node with the smallest heuristic value h(n).",
+    "options": [
+      "Both A and R are true, and R correctly explains A",
+      "Both A and R are true, but R does not explain A",
+      "A is false, but R is true",
+      "A is true, but R is false"
+    ],
+    "answer": "A is false, but R is true",
+    "explanation": "Greedy Best-First Search uses h(n) to select nodes, but this does not guarantee a least-cost solution. A* uses g(n) + h(n) and can guarantee optimality under appropriate conditions."
+  },
+  {
+    "id": 47,
+    "unit": "Unit II",
+    "topic": "Search Algorithms",
+    "type": "Match the Following",
+    "difficulty": "Medium",
+    "question": "Match each search algorithm with its characteristic: 1. BFS; 2. DFS; 3. Greedy Best-First Search. A. Uses a stack or recursion; B. Uses a FIFO queue; C. Prioritises a heuristic estimate.",
+    "options": [
+      "1-A, 2-B, 3-C",
+      "1-B, 2-A, 3-C",
+      "1-C, 2-A, 3-B",
+      "1-B, 2-C, 3-A"
+    ],
+    "answer": "1-B, 2-A, 3-C",
+    "explanation": "BFS uses a FIFO queue, DFS uses a stack or recursion, and Greedy Best-First Search selects nodes based on the heuristic estimate."
+  },
+  {
+    "id": 48,
+    "unit": "Unit I",
+    "topic": "Assertion and Reasoning",
+    "type": "Assertion-Reason",
+    "difficulty": "Hard",
+    "question": "Assertion (A): A rational agent must always choose the action that eventually produces the best outcome. Reason (R): Rationality is evaluated using the expected performance of an action based on the agent's available information.",
+    "options": [
+      "Both A and R are true, and R correctly explains A",
+      "Both A and R are true, but R does not explain A",
+      "A is true, but R is false",
+      "A is false, but R is true"
+    ],
+    "answer": "A is false, but R is true",
+    "explanation": "Rationality is judged using the information and expected outcomes available when an action is selected. It does not guarantee the best eventual outcome in an uncertain environment."
+  },
+  {
+    "id": 49,
+    "unit": "Unit II",
+    "topic": "Constraint Satisfaction Problems",
+    "type": "Scenario",
+    "difficulty": "Medium",
+    "question": "A university must assign classrooms to examinations without scheduling two exams in the same room at the same time. Which approach naturally models this problem?",
+    "options": [
+      "Constraint Satisfaction Problem",
+      "Image segmentation",
+      "Turing Test",
+      "Basic hill climbing without a state representation"
+    ],
+    "answer": "Constraint Satisfaction Problem",
+    "explanation": "Room and time assignments can be represented as variables with domains, while room conflicts become constraints that assignments must satisfy."
+  },
+  {
+    "id": 50,
+    "unit": "Unit II",
+    "topic": "Integrated AI Problem Solving",
+    "type": "Scenario",
+    "difficulty": "Hard",
+    "question": "A delivery robot must reach a destination while avoiding blocked corridors. It represents locations as states, uses a heuristic to estimate remaining distance, and selects promising states for exploration. Which description best fits this approach?",
+    "options": [
+      "The Turing Test without a search problem",
+      "A production system with no rules or states",
+      "Heuristic state-space search",
+      "A CSP with no variables or constraints"
+    ],
+    "answer": "Heuristic state-space search",
+    "explanation": "The robot models possible locations as states and uses a heuristic to guide its exploration toward the destination while respecting movement restrictions."
+  }
+]
+
+
+
+
+
