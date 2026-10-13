@@ -27,10 +27,3 @@ Place `app.py`, `questions.json`, `leaderboard.json` (if used by the application
 ```bash
 python -m streamlit run app.py
 ```
-
-## Submission checklist
-- [ ] Confirm the final `app.py` runs with this `questions.json`.
-- [ ] Capture screenshots from the actual running app.
-- [ ] Check all 50 questions and answers.
-- [ ] Confirm the question selection and scoring behaviour.
-- [ ] Add the real screenshots to the project report.
