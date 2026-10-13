@@ -13,7 +13,6 @@ st.set_page_config(
 )
 
 # STYLE
-
 st.markdown("""
 <style>
 :root {
