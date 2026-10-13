@@ -42,9 +42,39 @@ st.markdown("""
     max-width: 900px;
 }
 
+/* Text colours: the app uses a light background, so force readable dark text.
+   This also prevents Streamlit's dark-theme defaults from making text invisible. */
+.stApp,
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp p,
+.stApp li,
+.stApp [data-testid="stMarkdownContainer"],
+.stApp [data-testid="stWidgetLabel"],
+.stApp [data-testid="stWidgetLabel"] p,
+.stApp label,
+.stApp [data-testid="stRadio"] label,
+.stApp [data-testid="stRadio"] label p,
+.stApp [data-testid="stMetricLabel"],
+.stApp [data-testid="stMetricValue"] {
+    color: var(--text) !important;
+}
+
+/* Keep the custom welcome banner text white/light on its navy background. */
+.welcome-banner .welcome-title {
+    color: #FFFFFF !important;
+}
+.welcome-banner .welcome-tag {
+    color: #93C5FD !important;
+}
+.welcome-banner .welcome-text {
+    color: #DBEAFE !important;
+}
+
 /* Headings */
 h1, h2, h3 {
-    color: var(--text);
+    color: var(--text) !important;
 }
 
 /* Separators */
