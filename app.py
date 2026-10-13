@@ -5,17 +5,14 @@ import time
 from streamlit_autorefresh import st_autorefresh
 
 
-# PAGE CONFIGURATION (must be the first Streamlit command)
+# PAGE CONFIGURATION 
 
 st.set_page_config(
     page_title="AI Decoded",
     layout="centered"
 )
 
-# ---------------------------------------------------------------
 # STYLE
-# To change the look of the whole app, edit the colours in :root.
-# ---------------------------------------------------------------
 
 st.markdown("""
 <style>
@@ -551,7 +548,6 @@ elif not st.session_state.finished:
 
     if question_id not in st.session_state.answered:
         
-        # Shuffle the answer options for each question
         if "shuffled_options" not in st.session_state:
             st.session_state.shuffled_options = {}
 
